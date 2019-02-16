@@ -1,0 +1,26 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.switch {
+  background: rgb(138, 79, 79);
+  width: 200px;
+  padding: 8px;
+}
+.switch.on > p {
+  background: #fff;
+  height: 380px;
+}
+.switch.off > p {
+  visibility: hidden;
+}
+
+.switch.on {
+  background: #000000;
+  width: 200px;
+  height: 400px;
+}
+.switch.off {
+  width: 200px;
+  height: 10px;
+}
